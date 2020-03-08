@@ -1,0 +1,28 @@
+{{> welcomemenu }}
+
+<section class="ui raised segment">
+  <div class="ui grid">
+    <aside class="ui six wide column">
+      <img src="https://lh3.googleusercontent.com/proxy/xPQMf5_VEcatLACwnytXjT7FMmSBL4Dcgyao-MJ006LZ2d9lBdLQ_ZlaxYR1Vnibl4G5jKIhFm6HliMqffHbt4M9iO4zkuWDvJbJEpTL0vflSQ5xbdKZjN9ZpgmSFA" class="ui medium image">
+    </aside>
+    <div class="ui ten wide column fluid form">
+      <div class="ui stacked segment">
+        <form action="/login" method="POST">
+          <h3 class="ui header">Log-in</h3>
+          <div class="field">
+            <label>Email</label> <input placeholder="Email" type="text" name="email">
+          </div>
+          <div class="field">
+            <label>Password</label> <input type="password" name="password">
+          </div>
+          <button class="ui blue submit button">Login</button>
+        </form>
+        {{> error }}
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+
+</section>

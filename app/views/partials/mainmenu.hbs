@@ -1,0 +1,22 @@
+<nav class="ui menu">
+    <header class="header item"><a href="/"> Oiléain Na hÉireann </a></header>
+    <div class="ui secondary right menu">
+        <a id="home"   class= "item" href="/home"> Add POI</a>
+        <a id="fulllist" class= "item" href="/fulllist"> Full List</a>
+        <a id="useradmin" class= "item" href="/useradmin"> User Admin</a>
+        <a id="settings" class= "item" href="/settings"> Settings</a>
+        <div class="right menu">
+            <div class="item">
+                <div class="ui icon input">
+                    <input type="text" placeholder="Search...">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+            <a id="logout" class= "item" href="/logout"> Logout</a>
+        </div>
+    </div>
+</nav>
+<script>
+  $("#{{_id}}").addClass("active item");
+</script>
+

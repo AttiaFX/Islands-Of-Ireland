@@ -1,0 +1,30 @@
+<section class="ui raised segment">
+  <div class="ui grid">
+      <table class="ui celled table segment">
+        <thead>
+          <tr>
+            <th>Island Name</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Location</th>
+            <th>Image</th>
+            <th>Update</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each pois}}
+            <tr>
+              <td>{{name}}</td>
+              <td>{{description}}</td>
+              <td>{{category}}</td>
+              <td>{{location}}</td>
+               <td><img src="{{image}}" class="ui large image"></td>
+                <td><button><a id="fulllist" class="ui button" href="/updatepoi/{{_id}}">Update</a></button></td>
+                <td><button><a id="fulllist" class="negative ui button" href="/fulllist/{{_id}}">Delete</a></button></td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+  </div>
+</section>

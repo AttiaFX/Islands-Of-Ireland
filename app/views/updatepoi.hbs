@@ -1,0 +1,35 @@
+{{> mainmenu _id="updatepoi" }}
+
+<section class="ui raised segment">
+    <div class="ui grid">
+        <div class="ui ten wide column">
+            <div class="ui stacked fluid form segment">
+                <form action="/updatepoi/{{poi._id}}" method="POST">
+                    <h3 class="ui header">Update POI</h3>
+                    <div class="two fields">
+                        <div class="field">
+                            <label>Name</label> <input value="{{poi.name}}" type="text" name="name">
+                        </div>
+                        <div class="field">
+                            <label>Description</label> <input value="{{poi.description}}" type="text" name="description">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Category</label> <input value="{{poi.category}}" type="text" name="category">
+                    </div>
+                    <div class="field">
+                        <label>Location</label> <input value="{{poi.location}}" type="text" name="location">
+                    </div>
+                    <div class="field">
+                        <label>Link to Image</label> <input value="{{poi.image}}" type="text" name="image">
+                    </div>
+                    <button class="ui blue submit button">Save</button>
+                </form>
+                {{> error }}
+            </div>
+        </div>
+        <aside class="ui five wide column">
+            <img src="{{poi.image}}" class="ui large image">
+        </aside>
+    </div>
+</section>
