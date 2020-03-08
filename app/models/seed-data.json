@@ -1,0 +1,178 @@
+{
+  "users": {
+    "_model": "User",
+    "homer": {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret"
+    },
+    "marge": {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret"
+    },
+    "bart": {
+      "firstName": "Bart",
+      "lastName": "Simpson",
+      "email": "bart@simpson.com",
+      "password": "secret"
+    }
+  },
+  "pois": {
+    "_model": "Poi",
+    "four":
+    {
+      "name": "Sheep Island",
+      "description": "Sheep Island lies ENE of Ballintoy Harbour and was bought by the National Trust in 1967. The rats on the island were exterminated by 1970 and it again became an important nesting site for Puffin and Cormorant. The large numbers of the latter indicate healthy fish stocks in the rivers of the NE coast." ,
+      "category": "North",
+      "location": "County Antrim",
+      "image": "https://images.squarespace-cdn.com/content/52a0da60e4b0dfa4e47795de/1438857148562-GI5T3PA95FQJM96T39K8/image-asset.jpeg?content-type=image%2Fjpeg"
+    },
+    "five":
+    {
+      "name": "Carrickarede Island",
+      "description": "Carrickarede Island is about 2km E of Ballintoy Harbour and anyone visiting the area will be directed here. It is owned by the National Trust. It can be visited by land across its famous rope bridge, in place throughout the year, once used to serve salmon fishermen. Great bravery is required.",
+      "category": "North",
+      "location": "County Antrim",
+      "image": "https://www.causewaycoast.holiday/causeway-photographs/carrick-a-rede/carrick-crossing.jpg"
+    },
+    "six":
+    {
+      "name": "Maiden",
+      "description": "The West Tower Lighthouse and its attendant three storey cut-stone buildings dominate the island. The lighthouse tower is now gated to prevent access but with a bit of effort can be circumvented and can still be climbed internally, as the old stairway steps are still in reasonable condition.",
+      "category": "North",
+      "location": "County Down",
+      "image": "https://s0.geograph.org.uk/geophotos/04/44/20/4442048_cf047d50.jpg"
+    },
+    "seven":
+    {
+      "name": "Muck Island",
+      "description": "A medium sized island, about 1km N/S, located 300m off the mainland near the beautiful little harbour of Portmuck at D460-024. The island is interesting and has a nice mixture of wilderness habitats. Coastal grasses dominate the central part and the island rises steeply from W to E. There is a beach of mixed sand and shingle on its western side and a rocky bar extends shorewards off its southern point.",
+      "category": "North",
+      "location": "Scotland",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/1/285x214/49095_1.jpg"
+    },
+    "eight":
+    {
+      "name": "Malahide Arches",
+      "description": "The Dublin to Belfast railway line runs across the middle of the Malahide Estuary supported on a 12 arch bridge built on top of a man-made weir.  Malahide at 180m is the longest tidal railway viaduct in Ireland.  Built in 1844 in timber, that didn’t work.  Re-built in 1860 in stone with a wrought iron superstructure, it needed to be strengthened in 1932, for diesel locomotives.  The stone sub-works were always under pressure and despite re-pointing, the lot was replaced with pre-stressed concrete in 1966-1968.",
+      "category": "East",
+      "location": "County Dublin",
+      "image": "https://www.irishtimes.com/polopoly_fs/1.2736162.1469629401!/image/image.jpg_gen/derivatives/ratio_1x1_w1200/image.jpg"
+    },
+    "nine":
+    {
+      "name": "Ireland’s Eye",
+      "description": "Ireland’s Eye is an interesting, small, uninhabited island off Howth Harbour. Circumnavigation is recommended as the cliff scenery is excellent. The island is most attractive and most popular in early summer. There is a regular ferry in season, from Howth East Pier. The island is noted for its rock climbing on the tor at the NE corner, on the sea stack just off it, and also on the big cliff centred on the N side. Do please though exercise caution as regards bird life, and climb later in the season.",
+      "category": "East",
+      "location": "County Dublin",
+      "image": "https://doneganlandscaping.com/wp-content/uploads/2010/02/irelands-eye-island.jpg"
+    },
+    "ten":
+    {
+      "name": "Tuskar Rock",
+      "description": "Ireland’s most SE island, this austere, 5m high rock is 9km off the coast across strong currents. The passage is 11km from the beach, and deserves respect. There is a very remote and exposed feel to this place, which is famous for its lighthouse. Landing The steps at the small quay on the ENE side are probably the best landing. There is a narrow channel behind the quay but it surges. There are steps on the WNW side, should sea conditions allow.",
+      "category": "South",
+      "location": "County Wexford",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Tuskar_Rock.jpg"
+    },
+    "eleven":
+    {
+      "name": "Keeragh Islands",
+      "description": "These two islets lie in Ballyteige Bay, 12km W of the Saltees, relatively close inshore. They are small low-lying Birdwatch Ireland bird reserves. There are two distinct islands, but they are always regarded as the one. Landing is awkwardly practical at the N tip of each island, on either side of a projecting spit.",
+      "category": "South",
+      "location": "County Wexford",
+      "image": "https://i.ytimg.com/vi/EK4zVGvRwfY/maxresdefault.jpg"
+    },
+    "twelve":
+    {
+      "name": "Lamb's Islands",
+      "description": "This very steep, conical islet is detached from Lamb’s Head to its N by a 50m wide sound. A deep-water landing is possible on the E side of the sound. Here it is just possible, with great care, to scramble to the summit. Perhaps only a frustrated ex-climber would bother. There are lovely views from the top.",
+      "category": "South",
+      "location": "County Kerry",
+      "image": "https://i.redd.it/b1f8dg0tqjs21.png"
+    },
+    "thirteen":
+    {
+      "name": "Two Headed Island",
+      "description": "Grass-covered lump of rock, almost cut in half at a midway waist. On the NW-facing side of the waist is a deep sheltered pool, where a deep-water landing is possible. Beware – the entrance to the pool is narrow and beset by turbulence during big sets. Get your timing right entering and leaving. No water, and no camping. Marvel at the raised storm beach in the middle.",
+      "category": "South",
+      "location": "County Kerry",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Skellig_Michael03%28js%29.jpg/1200px-Skellig_Michael03%28js%29.jpg"
+    },
+    "fourteen":
+    {
+      "name": "Calf Island",
+      "description": "A group of fragmented grassy mounds grazed by cattle. Accessible on foot at the lower half of the tide, and via these islands to either outer island. A sandbar stretches through these islets and divides the navigable inside channel.",
+      "category": "South",
+      "location": "County Cork",
+      "image": "https://www.privateislandsonline.com/uploads/2065/5915d4ef44348.jpg"
+    },
+    "fifteen":
+    {
+      "name": "Lemon Rock",
+      "description": "Truly an excellent waystop when going to or from the Skelligs, if conditions are really calm. Tides run strongly in the shallows so otherwise keep away.",
+      "category": "South",
+      "location": "County Kerry",
+      "image": "https://www.irishcentral.com/uploads/assets/GettyImages-skellig_michael.jpg"
+    },
+    "sixteen":
+    {
+      "name": "Puffin Island",
+      "description": "A big, high, chunky island at the NW tip of Saint Finan’s Bay, about 5km S of the entrance to Portmagee Channel. The cliffs on all sides are huge, except on the E, but where it is difficult to find a flat grassy bit to camp on. The island is almost split N/S midway along. Deep inlets N&amp;S appear to cut the island, at least from some angles, but actually it is possible to descend easily enough to where a wide but steep grassy ramp gives a connection between the two.",
+      "category": "South",
+      "location": "County Kerry",
+      "image": "https://live.staticflickr.com/3740/9593024776_900ede37cc_b.jpg"
+    },
+    "seventeen":
+    {
+      "name": "Deer Island",
+      "description": "Administratively it is part of the District Electoral Division of Ballynacally. Population in 1996 was 1 (unchanged since 1991). It was the only inhabited island in Co. Clare. The 1901 census showed 9 families living on the island. It is uninhabited as of 2004 when the last of the residents died, many of the families of former residents vacation on the island throughout the year.",
+      "category": "West",
+      "location": "County Clare",
+      "image": "https://www.aecom.com/us/wp-content/uploads/2015/10/deer-island-2_mainimg.jpg"
+    },
+    "eighteen":
+    {
+      "name": "Church Island",
+      "description": "Church Island lies just E of Beginish. One may walk to it from Beginish at very LW. Otherwise, land at sheltered rocks on S side. Named for its rectangular church, of which two walls are in ruins. There is also a good circular dwelling. The two buildings are quite obvious. Dúchas attempts at preservation were not very successful. Look for the wall system around the island, which marked all ground inside as consecrated. Only ‘Holy Men’ could sleep inside.",
+      "category": "West",
+      "location": "County Sligo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Church_Island_-_geograph.org.uk_-_530209.jpg"
+    },
+    "nineteen":
+    {
+      "name": "Reenafardarrig",
+      "description": "Nice grassy islet, just NE of Illauntannig, with landing possible on the sandy S shore opposite Illauntannig. The other sides are rocky. The island is connected to Illauntannig by a bar/reef, crossable on foot at LW.  Between tides there are breakers coming through the gap, so that underwater obstructions are a real danger. No water. There is a 3-sided, 1m high sheep shelter on top.  Also in 2009 there is some sort of nest-box experimentation, possibly for terns.",
+      "category": "West",
+      "location": "County Limerick",
+      "image": "https://lh3.googleusercontent.com/proxy/qV3PH2esdjqwh6wrS2h7rCorWXnMONOlIB0iOJg-L004frLeYPahLIzCRv3IZ95iuPl9qIN8U0NNOY81wabyJtkYd4DAhhNfvICoNX7Y2Tz7jA_F"
+    },
+    "twenty":
+    {
+      "name": "Mattle Island",
+      "description": "Mattle is 2km S of Mutton Island and will always play a secondary role to the larger and more attractive Mutton. Cormorant and Shag roost on the grass top. Cormorant colonise the summit while Shag have their home perched over a deep cut that penetrates the NE point. Landing Land in a cut at the southern point, or in various points along the SE side, depending on tide and conditions. A reef runs well out to the ENE, and landing may often be had in its shelter.",
+      "category": "West",
+      "location": "County Clare",
+      "image": "https://lh3.googleusercontent.com/proxy/Ov_15aDaMdmeU2Lk2pn0aRNHoSJdnmL_9vfuz7x41NZCXgayghWiDZ7g15rDpRJcseOYIVcBrPXiOAT8DTzlSfNpIZTPuqm2u6Hg2SFEWUcWIk7YC99W-xKls7x4vsPUIFQSekIJPyf-NOo"
+    },
+    "twentyone":
+    {
+      "name": "Mutton Island",
+      "description": "Mutton Island lies 1.5km off Lurga Point. There are three modest houses, nicely sheltered under a low hill, at the narrow, eastern end on the SE facing side. The middle one is still roofed. The houses are just NE of a lake which is just E of the narrow middle of the island. There is a significant signal tower midway along the exposed western side. The northern and western sides are high and craggy. Landing and Embarkation The landing place is onto a stony beach at a projecting spit at the narrow, north-eastern point. There are also landing points nearer the houses.",
+      "category": "West",
+      "location": "County Galway",
+      "image": "https://i.redd.it/l8trz7zozqn01.jpg"
+    },
+    "twentytwo":
+    {
+      "name": "Bull Island",
+      "description": "50 N of Dublin Port is the North Bull Island, in the NW corner of the bay. It is connected to the shore by an ancient wooden bridge at O213-359 at its SW end, and a road/causeway at O225-374, midway along the island, built 1962. Much silting of the inner stretch of water has occurred since then, especially close to the causeway, which is now recognised to have been an environmental nightmare, and studies are underway to find a solution.",
+      "category": "East",
+      "location": "County Dublin",
+      "image": "https://img.locationscout.net/images/2019-08/bull-island-dollymount-strand-ireland_l.jpeg"
+    }
+  }
+}
